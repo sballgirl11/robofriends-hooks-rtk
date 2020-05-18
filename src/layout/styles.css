@@ -7,5 +7,5 @@
 
 main {
   grid-row: 2/3;
-  padding: 20px;
+  padding: 20px 0;
 }
