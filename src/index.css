@@ -8,6 +8,11 @@ body {
   margin: 0;
   height: 100%;
   max-width: 100vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: translateY(-50%);
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
 }
 
 #root {

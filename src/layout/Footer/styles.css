@@ -12,3 +12,40 @@ footer {
   background-image: linear-gradient(to top, #0f1836, rgb(29, 66, 90));
   color: #0ccac4;
 }
+
+.links {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  padding: 0 0.5em;
+  transition: transform 0.2s linear;
+  text-decoration: none;
+  color: #0ccac4;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+p::before {
+  content: '';
+  position: absolute;
+  transition: transform 0.3s ease;
+  left: 12.5%;
+  bottom: 0;
+  top: 40px;
+  width: 75%;
+  height: 2px;
+  background: #aaa;
+  transform: scaleX(0);
+}
+
+p:hover::before {
+  background: rgb(168, 168, 168);
+  transform: scaleX(0.1);
+}
